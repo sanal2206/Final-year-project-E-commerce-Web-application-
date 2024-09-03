@@ -1,0 +1,132 @@
+ 
+ .bg-banner {
+    background-image: url("../bg_images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fdfafa; /* Text color for the banner */
+    height: 90vh; /* Full-screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 5s; /* Transition time */
+}
+
+.bg-banner:hover {
+    background-image: url("../bg_images/bg2.jpg");
+}
+
+/* nav bar font size */
+.navbar-nav .nav-link {
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+
+/* company name */
+.company-name {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-left: 10px; /* Add space between logo and company name */
+    color: white; /* Color of the company name */
+    font-weight: bold; /* Make the company name bold */
+}
+
+ /* Container */
+.container h1 {
+    font-size: 36px;
+    /* Add more styles as needed */
+}
+
+.container h2 {
+    font-size: 24px;
+    /* Add more styles as needed */
+}
+
+
+
+ /*  items list*/
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 20px; /* Gap between items */
+}
+
+.item {
+    /* You can keep the same styling for each item */
+    padding: 10px;
+    border: 3px solid #9a9494;
+    text-align: center;
+    background: #fcfcfc;
+ }
+
+.item img {
+    max-width: 100%;
+    height: 90px;
+    width:90px;
+}
+
+.item h3 {
+    margin-top: 10px;
+}
+
+.item p {
+    margin-top: 5px;
+}
+
+.item button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item button:hover {
+    background-color: #0056b3;
+}
+
+/* Our goal conatiner */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+  
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 46px;
+    color: #333;
+}
+
+.section-header h4 {
+    font-size: 22px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* footer */
+footer {
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of social media icons */
+    height: 30px;
+}
+
